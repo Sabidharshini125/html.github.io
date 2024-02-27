@@ -1,48 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <style>
-        body{
-          background-image: url("https://t3.ftcdn.net/jpg/05/48/56/38/360_F_548563894_s5tGFJjPhc7lp5uG4iJkR77QbgvrKr9e.jpg" );
-          background-repeat: no-repeat;
-          background-size: cover;
-          </style>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
-    <form style="background-color: bisque;">
+    <form>
+        <h1>Student Details</h1>
+        <label for="name" id="s1">Name :<input id="name" type="text" placeholder="Enter your name"></label>
         
-        <label id="s1">Name:  <input id="s1" type="text"></label>
-        <br>
-         <label style="padding: 10px;">DOB:<input type="date"></label>
-         <br>
-         <label>Address: <textarea></textarea></label>
-         <br>
-         <label >Gender</label>
-         <br>
-         <label ><input type="radio" name="gender">Male</label>
         
-    <br>
-
-         <label> <input type="radio" name="gender">Female</label>
-         <br>
-
-         <label>Subject</label>
-         <br>
-         <label> <input type="checkbox">maths</label>
-        <br>
-         <label><input type="checkbox">english</label>
-         <br>
-         <label><input type="checkbox">physics</label>
-         <br>
-         <label><input type="checkbox">chemistry</label>
-         <br>
-
-         <label><input type="submit" value="Submit"></label>
-         
+        <label for="dob" id="s2">DOB   :<input id="dob" type="date" ></label>
+        
+        
+        <label for="address" id="s3">Address:</label>
+        <textarea id="address" placeholder="Enter your Address"></textarea>
+        
+        <label>Gender:</label>
+        <div class="gender-radio">
+           
+            <label for="male"> <input type="radio" name="gender" id="male">Male</label>
+            
+            <label for="female"><input type="radio" name="gender" id="female">Female</label>
+        </div>
+        
+        <label>Subjects:</label>
+        
+        <label for="maths"><input type="checkbox" id="maths">Maths</label>
+        
+       
+        <label for="english"> <input type="checkbox" id="english">English</label>
+        
+        
+        <label for="physics"><input type="checkbox" id="physics">Physics</label>
+        
+        
+        <label for="chemistry"><input type="checkbox" id="chemistry">Chemistry</label>
+        
+        <input type="submit" value="Submit">
     </form>
 </body>
 </html>
