@@ -1,0 +1,19 @@
+form{
+    align-content: center;
+   border: 2px solid orangered;
+   opacity:  0.5;
+   padding: 10px;
+   margin:10px;
+   width:500px;
+   height: 500 pxt;
+   justify-content: center;
+   border-radius: 20px;
+   padding: 20px;
+   margin-left: 30%;
+   margin-top: 15%;
+}
+
+*
+{
+    padding-left: 2px;
+}
