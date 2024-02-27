@@ -14,7 +14,7 @@ body {
 
 form {
     border: 2px solid orangered;
-    opacity: 0.8; /* Adjusted opacity */
+    opacity: 0.5; /* Adjusted opacity */
     padding: 20px;
     width: 400px; /* Adjusted width */
     border-radius: 20px;
