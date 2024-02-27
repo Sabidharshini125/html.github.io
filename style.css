@@ -11,7 +11,6 @@ body {
     height: 100vh;
     font-family: Arial, sans-serif; /* Change font style */
 }
-
 form {
     border: 2px solid orangered;
     opacity: 0.5; /* Adjusted opacity */
@@ -20,13 +19,10 @@ form {
     border-radius: 20px;
     background-color: bisque;
 }
-
 form label {
     display: block;
     margin-bottom: 10px;
 }
-
-
 form textarea,
 form input[type="submit"] {
     margin-top: 5px;
@@ -36,7 +32,6 @@ form input[type="submit"] {
     border-radius: 5px;
     border: 1px solid #ccc;
 }
-
 .gender-radio input[type="radio"] {
     display: inline-block;
     width: auto;
